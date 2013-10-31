@@ -1,4 +1,4 @@
-package rad.thewirelezzgame;
+package com.usp.thewirelezzgame;
 
 import android.content.Intent;
 import android.os.Bundle;
