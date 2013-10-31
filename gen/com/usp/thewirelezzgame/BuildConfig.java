@@ -1,5 +1,5 @@
 /** Automatically generated file. DO NOT MODIFY */
-package rad.thewirelezzgame;
+package com.usp.thewirelezzgame;
 
 public final class BuildConfig {
     public final static boolean DEBUG = true;

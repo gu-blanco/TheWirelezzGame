@@ -5,7 +5,7 @@
  * should not be modified by hand.
  */
 
-package rad.thewirelezzgame;
+package com.usp.thewirelezzgame;
 
 public final class R {
     public static final class attr {
@@ -186,19 +186,30 @@ containing a value of this type.
         public static final int ic_plusone_tall_off_client=0x7f02001c;
     }
     public static final class id {
-        public static final int action_settings=0x7f050006;
+        public static final int action_settings=0x7f05000e;
+        public static final int button_acao=0x7f05000a;
+        public static final int button_atualizar=0x7f05000c;
+        public static final int button_chat=0x7f05000d;
+        public static final int button_equipe=0x7f05000b;
+        public static final int button_login=0x7f050007;
+        public static final int editText1=0x7f050009;
         public static final int hybrid=0x7f050004;
-        public static final int map=0x7f050005;
+        public static final int imageView1=0x7f050006;
+        public static final int map=0x7f050008;
         public static final int none=0x7f050000;
         public static final int normal=0x7f050001;
         public static final int satellite=0x7f050002;
         public static final int terrain=0x7f050003;
+        public static final int text_titulo=0x7f050005;
     }
     public static final class layout {
-        public static final int main=0x7f030000;
+        public static final int activity_tela__login=0x7f030000;
+        public static final int activity_tela__partida=0x7f030001;
+        public static final int main=0x7f030002;
     }
     public static final class menu {
         public static final int main=0x7f090000;
+        public static final int tela__login=0x7f090001;
     }
     public static final class string {
         public static final int action_settings=0x7f06001a;
@@ -330,20 +341,20 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #MapAttrs_cameraBearing rad.thewirelezzgame:cameraBearing}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_cameraTargetLat rad.thewirelezzgame:cameraTargetLat}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_cameraTargetLng rad.thewirelezzgame:cameraTargetLng}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_cameraTilt rad.thewirelezzgame:cameraTilt}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_cameraZoom rad.thewirelezzgame:cameraZoom}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_mapType rad.thewirelezzgame:mapType}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_uiCompass rad.thewirelezzgame:uiCompass}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_uiRotateGestures rad.thewirelezzgame:uiRotateGestures}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_uiScrollGestures rad.thewirelezzgame:uiScrollGestures}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_uiTiltGestures rad.thewirelezzgame:uiTiltGestures}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_uiZoomControls rad.thewirelezzgame:uiZoomControls}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_uiZoomGestures rad.thewirelezzgame:uiZoomGestures}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_useViewLifecycle rad.thewirelezzgame:useViewLifecycle}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_zOrderOnTop rad.thewirelezzgame:zOrderOnTop}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_cameraBearing com.usp.thewirelezzgame:cameraBearing}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_cameraTargetLat com.usp.thewirelezzgame:cameraTargetLat}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_cameraTargetLng com.usp.thewirelezzgame:cameraTargetLng}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_cameraTilt com.usp.thewirelezzgame:cameraTilt}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_cameraZoom com.usp.thewirelezzgame:cameraZoom}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_mapType com.usp.thewirelezzgame:mapType}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_uiCompass com.usp.thewirelezzgame:uiCompass}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_uiRotateGestures com.usp.thewirelezzgame:uiRotateGestures}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_uiScrollGestures com.usp.thewirelezzgame:uiScrollGestures}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_uiTiltGestures com.usp.thewirelezzgame:uiTiltGestures}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_uiZoomControls com.usp.thewirelezzgame:uiZoomControls}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_uiZoomGestures com.usp.thewirelezzgame:uiZoomGestures}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_useViewLifecycle com.usp.thewirelezzgame:useViewLifecycle}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_zOrderOnTop com.usp.thewirelezzgame:zOrderOnTop}</code></td><td></td></tr>
            </table>
            @see #MapAttrs_cameraBearing
            @see #MapAttrs_cameraTargetLat
@@ -367,7 +378,7 @@ containing a value of this type.
             0x7f01000c, 0x7f01000d
         };
         /**
-          <p>This symbol is the offset where the {@link rad.thewirelezzgame.R.attr#cameraBearing}
+          <p>This symbol is the offset where the {@link com.usp.thewirelezzgame.R.attr#cameraBearing}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -381,7 +392,7 @@ containing a value of this type.
         */
         public static final int MapAttrs_cameraBearing = 1;
         /**
-          <p>This symbol is the offset where the {@link rad.thewirelezzgame.R.attr#cameraTargetLat}
+          <p>This symbol is the offset where the {@link com.usp.thewirelezzgame.R.attr#cameraTargetLat}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -395,7 +406,7 @@ containing a value of this type.
         */
         public static final int MapAttrs_cameraTargetLat = 2;
         /**
-          <p>This symbol is the offset where the {@link rad.thewirelezzgame.R.attr#cameraTargetLng}
+          <p>This symbol is the offset where the {@link com.usp.thewirelezzgame.R.attr#cameraTargetLng}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -409,7 +420,7 @@ containing a value of this type.
         */
         public static final int MapAttrs_cameraTargetLng = 3;
         /**
-          <p>This symbol is the offset where the {@link rad.thewirelezzgame.R.attr#cameraTilt}
+          <p>This symbol is the offset where the {@link com.usp.thewirelezzgame.R.attr#cameraTilt}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -423,7 +434,7 @@ containing a value of this type.
         */
         public static final int MapAttrs_cameraTilt = 4;
         /**
-          <p>This symbol is the offset where the {@link rad.thewirelezzgame.R.attr#cameraZoom}
+          <p>This symbol is the offset where the {@link com.usp.thewirelezzgame.R.attr#cameraZoom}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -437,7 +448,7 @@ containing a value of this type.
         */
         public static final int MapAttrs_cameraZoom = 5;
         /**
-          <p>This symbol is the offset where the {@link rad.thewirelezzgame.R.attr#mapType}
+          <p>This symbol is the offset where the {@link com.usp.thewirelezzgame.R.attr#mapType}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -457,7 +468,7 @@ containing a value of this type.
         */
         public static final int MapAttrs_mapType = 0;
         /**
-          <p>This symbol is the offset where the {@link rad.thewirelezzgame.R.attr#uiCompass}
+          <p>This symbol is the offset where the {@link com.usp.thewirelezzgame.R.attr#uiCompass}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -471,7 +482,7 @@ containing a value of this type.
         */
         public static final int MapAttrs_uiCompass = 6;
         /**
-          <p>This symbol is the offset where the {@link rad.thewirelezzgame.R.attr#uiRotateGestures}
+          <p>This symbol is the offset where the {@link com.usp.thewirelezzgame.R.attr#uiRotateGestures}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -485,7 +496,7 @@ containing a value of this type.
         */
         public static final int MapAttrs_uiRotateGestures = 7;
         /**
-          <p>This symbol is the offset where the {@link rad.thewirelezzgame.R.attr#uiScrollGestures}
+          <p>This symbol is the offset where the {@link com.usp.thewirelezzgame.R.attr#uiScrollGestures}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -499,7 +510,7 @@ containing a value of this type.
         */
         public static final int MapAttrs_uiScrollGestures = 8;
         /**
-          <p>This symbol is the offset where the {@link rad.thewirelezzgame.R.attr#uiTiltGestures}
+          <p>This symbol is the offset where the {@link com.usp.thewirelezzgame.R.attr#uiTiltGestures}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -513,7 +524,7 @@ containing a value of this type.
         */
         public static final int MapAttrs_uiTiltGestures = 9;
         /**
-          <p>This symbol is the offset where the {@link rad.thewirelezzgame.R.attr#uiZoomControls}
+          <p>This symbol is the offset where the {@link com.usp.thewirelezzgame.R.attr#uiZoomControls}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -527,7 +538,7 @@ containing a value of this type.
         */
         public static final int MapAttrs_uiZoomControls = 10;
         /**
-          <p>This symbol is the offset where the {@link rad.thewirelezzgame.R.attr#uiZoomGestures}
+          <p>This symbol is the offset where the {@link com.usp.thewirelezzgame.R.attr#uiZoomGestures}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -541,7 +552,7 @@ containing a value of this type.
         */
         public static final int MapAttrs_uiZoomGestures = 11;
         /**
-          <p>This symbol is the offset where the {@link rad.thewirelezzgame.R.attr#useViewLifecycle}
+          <p>This symbol is the offset where the {@link com.usp.thewirelezzgame.R.attr#useViewLifecycle}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -555,7 +566,7 @@ containing a value of this type.
         */
         public static final int MapAttrs_useViewLifecycle = 12;
         /**
-          <p>This symbol is the offset where the {@link rad.thewirelezzgame.R.attr#zOrderOnTop}
+          <p>This symbol is the offset where the {@link com.usp.thewirelezzgame.R.attr#zOrderOnTop}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
