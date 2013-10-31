@@ -186,16 +186,24 @@ containing a value of this type.
         public static final int ic_plusone_tall_off_client=0x7f02001c;
     }
     public static final class id {
-        public static final int action_settings=0x7f050006;
+        public static final int action_settings=0x7f05000d;
+        public static final int button_acao=0x7f050009;
+        public static final int button_chat=0x7f05000b;
+        public static final int button_equipe=0x7f05000a;
+        public static final int button_fechar=0x7f05000c;
+        public static final int button_login=0x7f050007;
         public static final int hybrid=0x7f050004;
-        public static final int map=0x7f050005;
+        public static final int imageView1=0x7f050006;
+        public static final int map=0x7f050008;
         public static final int none=0x7f050000;
         public static final int normal=0x7f050001;
         public static final int satellite=0x7f050002;
         public static final int terrain=0x7f050003;
+        public static final int textView1=0x7f050005;
     }
     public static final class layout {
-        public static final int main=0x7f030000;
+        public static final int activity_tela__login=0x7f030000;
+        public static final int activity_tela__partida=0x7f030001;
     }
     public static final class menu {
         public static final int main=0x7f090000;
@@ -377,7 +385,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android:cameraBearing
+          @attr name rad.thewirelezzgame:cameraBearing
         */
         public static final int MapAttrs_cameraBearing = 1;
         /**
@@ -391,7 +399,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android:cameraTargetLat
+          @attr name rad.thewirelezzgame:cameraTargetLat
         */
         public static final int MapAttrs_cameraTargetLat = 2;
         /**
@@ -405,7 +413,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android:cameraTargetLng
+          @attr name rad.thewirelezzgame:cameraTargetLng
         */
         public static final int MapAttrs_cameraTargetLng = 3;
         /**
@@ -419,7 +427,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android:cameraTilt
+          @attr name rad.thewirelezzgame:cameraTilt
         */
         public static final int MapAttrs_cameraTilt = 4;
         /**
@@ -433,7 +441,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android:cameraZoom
+          @attr name rad.thewirelezzgame:cameraZoom
         */
         public static final int MapAttrs_cameraZoom = 5;
         /**
@@ -453,7 +461,7 @@ containing a value of this type.
 <tr><td><code>terrain</code></td><td>3</td><td></td></tr>
 <tr><td><code>hybrid</code></td><td>4</td><td></td></tr>
 </table>
-          @attr name android:mapType
+          @attr name rad.thewirelezzgame:mapType
         */
         public static final int MapAttrs_mapType = 0;
         /**
@@ -467,7 +475,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android:uiCompass
+          @attr name rad.thewirelezzgame:uiCompass
         */
         public static final int MapAttrs_uiCompass = 6;
         /**
@@ -481,7 +489,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android:uiRotateGestures
+          @attr name rad.thewirelezzgame:uiRotateGestures
         */
         public static final int MapAttrs_uiRotateGestures = 7;
         /**
@@ -495,7 +503,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android:uiScrollGestures
+          @attr name rad.thewirelezzgame:uiScrollGestures
         */
         public static final int MapAttrs_uiScrollGestures = 8;
         /**
@@ -509,7 +517,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android:uiTiltGestures
+          @attr name rad.thewirelezzgame:uiTiltGestures
         */
         public static final int MapAttrs_uiTiltGestures = 9;
         /**
@@ -523,7 +531,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android:uiZoomControls
+          @attr name rad.thewirelezzgame:uiZoomControls
         */
         public static final int MapAttrs_uiZoomControls = 10;
         /**
@@ -537,7 +545,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android:uiZoomGestures
+          @attr name rad.thewirelezzgame:uiZoomGestures
         */
         public static final int MapAttrs_uiZoomGestures = 11;
         /**
@@ -551,7 +559,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android:useViewLifecycle
+          @attr name rad.thewirelezzgame:useViewLifecycle
         */
         public static final int MapAttrs_useViewLifecycle = 12;
         /**
@@ -565,7 +573,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android:zOrderOnTop
+          @attr name rad.thewirelezzgame:zOrderOnTop
         */
         public static final int MapAttrs_zOrderOnTop = 13;
     };
