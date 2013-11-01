@@ -2,11 +2,13 @@ package com.usp.thewirelezzgame;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.v4.app.FragmentActivity;
+import android.support.v7.app.ActionBarActivity;
+import android.view.Menu;
+import android.view.MenuInflater;
 import android.view.View;
 import android.widget.Button;
 
-public class Tela_Login extends FragmentActivity {
+public class Tela_Login extends ActionBarActivity {
 
 	Button btLogin;
 	
@@ -28,6 +30,5 @@ public class Tela_Login extends FragmentActivity {
         	Tela_Login.this.startActivity(trocatela);	 
         	}
         	});   
-    }
-    
+    }    
 }
