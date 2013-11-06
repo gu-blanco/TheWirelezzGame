@@ -1,12 +1,14 @@
 package com.usp.thewirelezzgame;
 
-import android.app.Activity;
-import android.content.*;
+import android.content.Intent;
 import android.os.Bundle;
-import android.widget.*;
-import android.view.*;
-	
-public class Tela_Login extends Activity {
+import android.support.v7.app.ActionBarActivity;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.View;
+import android.widget.Button;
+
+public class Tela_Login extends ActionBarActivity {
 
 	Button btLogin;
 	
@@ -24,21 +26,9 @@ public class Tela_Login extends Activity {
         	public void onClick(View arg0) {
         	 
         	Intent trocatela = new
-        	Intent(Tela_Login.this,Tela_partida.class);
-        	Tela_Login.this.startActivity(trocatela);
-        	Tela_Login.this.finish();
-        	 
+        	Intent(Tela_Login.this,Tela_Partida.class);
+        	Tela_Login.this.startActivity(trocatela);	 
         	}
-        	});
-        
-    }
-
-
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.tela__login, menu);
-        return true;
-    }
-    
+        	});   
+    }    
 }
