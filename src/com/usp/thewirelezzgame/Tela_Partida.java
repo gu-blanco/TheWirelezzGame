@@ -9,6 +9,7 @@ import android.widget.Button;
 public class Tela_Partida extends ActionBarActivity{
 	
 	Button btFechar;
+	Button btChat;
 	
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,5 +31,17 @@ public class Tela_Partida extends ActionBarActivity{
         	 
         	}
         	});
+        
+        btChat = (Button)
+                findViewById(R.id.button_chat);
+                
+        btChat.setOnClickListener(new View.OnClickListener() {
+               	 
+            	@Override
+            	public void onClick(View arg0) {
+            	 
+            		startActivity(new Intent(getApplicationContext(), ChatActivity.class));
+            	}
+            	});
     }
 }
