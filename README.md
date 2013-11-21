@@ -15,7 +15,11 @@ Importando o projeto
 7. Importe os projetos no Eclipse usando: *Import > Android > Existing Android Code into Workspace*. Renomeie o projeto se estiver com o nome errado.
 8. Clique com o botão direito no projeto do The Wirelezz Game, clique em Properties, clique em Android, na parte de Library clique em Add e selecione o projeto *google-play-services_lib* e *android-support-v7-appcompat*. Um marcador verde deverá indicar que está importado corretamente.
 9. Ainda nas propriedades do projeto vá em Java Build Path, na aba Projects, adicione os dois projetos das bibliotecas.
-10. Pronto. Rode o projeto para verificar se está tudo certo.
+10. Clique com o botão direito no projeto "android-support-v7-appcompat" e clique em "propriedades"
+11. Selecione "Java Build Path"
+12. Abra a aba "Order and Export"
+13. Marque a opção "Android Private Libraries" and click.
+14. Pronto. Rode o projeto para verificar se está tudo certo.
 
 ### Renomeando o Projeto
 - Clique com o botão direito no projeto, vá em Refactor -> Rename.
